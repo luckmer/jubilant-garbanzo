@@ -12,10 +12,10 @@ int for_of(){
   }
 
 
-  printf("%d\n", sum);
   return sum;
 }
 
 int main(){
-  for_of();
+  int result = for_of();  
+  printf("%d\n", result); 
 }
